@@ -108,7 +108,7 @@ class AccountService {
 
 # Classes vs Functions
 
-## Quando usar classes ?
+## When to use classes ?
 
 - Utils
 - Services
@@ -118,7 +118,7 @@ class AccountService {
 class AccountService { }
 ```
 
-### Quando usar Functions
+### When to use Functions?
 
 - Components
 - Pages
@@ -129,6 +129,6 @@ function Account() {
 }
 ```
 
-# Testes
+# Tests
 
   - Jest + React Testing Library
