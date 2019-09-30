@@ -49,11 +49,14 @@
 ```
 Button/
   components/
-  Button.spec.js
-  Button.storie.js
+  enums.js
   index.js
+  index.spec.js
+  index.storie.js
   presentational.js
+  presentational.spec.js
   styles.js
+  types.js
 ```
 
 ## Pages
@@ -63,20 +66,21 @@ AccountPage/
   components/
   modals/
   images/
-  AccountPage.spec.js
   index.js
+  index.spec.js
   presentational.js
+  presentational.spec.js
   styles.js
 ```
 
 ## Services
 
 ```
-class AccountService {
-  static async create() {}
-  static async update() {}
-  static async delete() {}
-}
+ PushNotificationService/
+    enums.js
+    index.js
+    index.spec.js
+    types.js
 ```
 
 ### Custom Hooks
@@ -89,10 +93,7 @@ class AccountService {
 
 ## Files
 
-- Components
-  - CamelCase
-- Others
-  - camelCase
+CamelCase
 
 ## Variables
 
@@ -104,24 +105,25 @@ class AccountService {
 
 ## Services
 
-- camelCase
+- CamelCase
 
 # Classes vs Functions
 
 ## When to use classes ?
 
-- Utils
-- Services
 - Mobx Stores
 
 ```
-class AccountService { }
+class UserStore { }
 ```
 
 ### When to use Functions?
 
 - Components
 - Pages
+- Utils
+- Services
+- Core
 
 ```
 function Account() {
